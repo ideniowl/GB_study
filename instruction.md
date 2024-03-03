@@ -73,5 +73,18 @@ git branch -d <branch_name>
 
 Для отправки локального репозитория в удаленный:
 ```sh
-git push -u origin main
+git push
 ```
+
+Для копирования удаленного репо на комп:
+```sh
+git clone <https_url>
+```
+
+Для удаления ветки на удаленном репо:
+```sh
+git push origin --delete <branch_name>
+```
+
+Для авторизации на github нужно создавать токен в настройках профиля.
+
